@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+
+
+.nav-wrapper {
+    text-align: center;
+    padding: 38px;
+}
+/*inline-flex made it possible to have it centered and side by side.*/ 
+.center {
+    display: inline-flex;  
+}
+
+.nav-wrapper > .center > div {
+    margin-right: 20px;
+    font-size: 1.3em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #afaeae;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+/* This part does the color transition when hovered on.*/
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
