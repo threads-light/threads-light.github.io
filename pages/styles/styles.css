@@ -7,6 +7,10 @@ body {
     padding: 10px;
 }
 
+h1 {
+    color: #afaeae;
+}
+
 
 .nav-wrapper {
     text-align: center;
