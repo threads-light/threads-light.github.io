@@ -2,6 +2,11 @@ body {
     margin: 0px;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 .about {
   margin-top: 40px;
   margin-right: 350px;
@@ -16,6 +21,26 @@ body {
 
 h1 {
     color: #FFF;
+}
+
+#footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+  margin: 0 8px;
+}
+
+.social > a:hover {
+  opacity: 0.9;
 }
 
 
