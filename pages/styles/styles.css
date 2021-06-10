@@ -2,13 +2,20 @@ body {
     margin: 0px;
 }
 
-#me {
+.about {
+  margin-top: 40px;
+  margin-right: 350px;
+  margin-left: 730px;
+  color: #FFF;
+}
+
+.img-me {
     float: left;
     padding: 10px;
 }
 
 h1 {
-    color: #afaeae;
+    color: #FFF;
 }
 
 
@@ -16,9 +23,9 @@ h1 {
     text-align: center;
     padding: 38px;
 }
-/*inline-flex made it possible to have it centered and side by side.*/ 
+/*inline-flex made it possible to have it centered and side by side.*/
 .center {
-    display: inline-flex;  
+    display: inline-flex;
 }
 
 .nav-wrapper > .center > div {
@@ -33,7 +40,7 @@ h1 {
 }
 
 .nav-link-wrapper a {
-    color: #afaeae;
+    color: #FFF;
     text-decoration: none;
     transition: color 0.5s;
 }
